@@ -50,10 +50,11 @@ dhval:!::
 lpadmin:!::dhval
 sambashare:!::dhval
 administrator:!::
-debian-transmission:!::
+debian-transmission:!::administrator
 avahi:!::
 mysql:!::
 tomcat7:!::
 rabbitmq:!::
 jenkins:!::
 minidlna:!::
+ftp:!::

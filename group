@@ -1,4 +1,4 @@
-root:x:0:
+root:x:0:administrator
 daemon:x:1:
 bin:x:2:
 sys:x:3:
@@ -50,7 +50,7 @@ dhval:x:1000:
 lpadmin:x:110:dhval
 sambashare:x:111:dhval
 administrator:x:1001:
-debian-transmission:x:112:
+debian-transmission:x:112:administrator
 avahi:x:113:
 mysql:x:114:
 tomcat7:x:115:

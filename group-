@@ -50,10 +50,11 @@ dhval:x:1000:
 lpadmin:x:110:dhval
 sambashare:x:111:dhval
 administrator:x:1001:
-debian-transmission:x:112:
+debian-transmission:x:112:administrator
 avahi:x:113:
 mysql:x:114:
 tomcat7:x:115:
 rabbitmq:x:116:
 jenkins:x:117:
 minidlna:x:118:
+ftp:x:119:
