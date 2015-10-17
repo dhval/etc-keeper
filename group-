@@ -1,4 +1,4 @@
-root:x:0:
+root:x:0:administrator
 daemon:x:1:
 bin:x:2:
 sys:x:3:
@@ -58,3 +58,4 @@ rabbitmq:x:116:
 jenkins:x:117:
 minidlna:x:118:
 ftp:x:119:
+mongodb:x:120:

@@ -1,4 +1,4 @@
-root:*::
+root:*::administrator
 daemon:*::
 bin:*::
 sys:*::
@@ -58,3 +58,4 @@ rabbitmq:!::
 jenkins:!::
 minidlna:!::
 ftp:!::
+mongodb:!::
