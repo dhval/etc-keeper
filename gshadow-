@@ -58,4 +58,4 @@ rabbitmq:!::
 jenkins:!::
 minidlna:!::
 ftp:!::
-mongodb:!::
+mongodb:!::mongodb
