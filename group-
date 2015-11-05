@@ -59,3 +59,4 @@ jenkins:x:117:
 minidlna:x:118:
 ftp:x:119:
 mongodb:x:120:mongodb
+gerrit2:x:1002:
