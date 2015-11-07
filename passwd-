@@ -33,4 +33,5 @@ jenkins:x:111:117:Jenkins,,,:/var/lib/jenkins:/bin/bash
 minidlna:x:112:118:MiniDLNA server,,,:/var/lib/minidlna:/usr/sbin/nologin
 ftp:x:113:119:ftp daemon,,,:/srv/ftp:/bin/false
 mongodb:x:114:65534::/home/mongodb:/bin/false
-gerrit2:x:1002:1002::/home/gerrit2:/bin/bash
+gerrit2:x:1002:1002:gerrit2,,,:/home/gerrit2:/bin/bash
+cris:x:1003:1003::/home/cris:/bin/bash
