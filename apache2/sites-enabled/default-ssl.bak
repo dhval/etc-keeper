@@ -19,21 +19,19 @@ ProxyVia on
     Order allow,deny
     Allow from all
 </ProxyMatch>
+#ProxyPass /web http://127.0.0.1:32400/web
+#ProxyPassReverse /web http://127.0.0.1:32400/web
 
-# Reverse proxy to plex
-ProxyPass /library http://127.0.0.1:32400/library
-ProxyPassReverse /library http://127.0.0.1:32400/library
+#ProxyPass / http://127.0.0.1:32400/
+#ProxyPassReverse / http://127.0.0.1:32400/
+#ProxyPass /web/ http://localhost:32400/web/index.html
+#ProxyPassReverse /web/ http://localhost:32400/web/index.html
 
-ProxyPass /web http://127.0.0.1:32400/web
-ProxyPassReverse /web http://127.0.0.1:32400/web
-
-ProxyPass /services http://127.0.0.1:9090/services
-ProxyPassReverse /services http://127.0.0.1:9090/services
-
-ProxyPass /manager http://127.0.0.1:9090/manager
-ProxyPassReverse /manager http://127.0.0.1:9090/manager
-
-<VirtualHost *:80>
+# RewriteEngine On
+# ProxyPreserveHost On
+# proxy the request to internal url
+#  RewriteRule     ^/library/(.*)      http://127.0.0.1:32400/library/$1 [P]
+<VirtualHost _default_:80>
 ServerName madhu.noip.me
 ProxyRequests off
 DirectoryIndex index.html
