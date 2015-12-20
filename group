@@ -1,4 +1,4 @@
-root:x:0:administrator
+root:x:0:administrator,dhval
 daemon:x:1:
 bin:x:2:
 sys:x:3:
@@ -49,8 +49,8 @@ landscape:x:109:
 dhval:x:1000:
 lpadmin:x:110:dhval
 sambashare:x:111:dhval
-administrator:x:1001:
-debian-transmission:x:112:administrator
+administrator:x:1001:plex,dhval
+debian-transmission:x:112:administrator,dhval
 avahi:x:113:
 mysql:x:114:
 tomcat7:x:115:
@@ -62,3 +62,4 @@ mongodb:x:120:mongodb
 gerrit2:x:1002:
 ssl-cert:x:121:
 adam:x:1003:
+admin:x:1004:administrator,root,dhval

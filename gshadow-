@@ -1,4 +1,4 @@
-root:*::administrator
+root:*::administrator,dhval
 daemon:*::
 bin:*::
 sys:*::
@@ -49,7 +49,7 @@ landscape:!::
 dhval:!::
 lpadmin:!::dhval
 sambashare:!::dhval
-administrator:!::
+administrator:!::plex,dhval
 debian-transmission:!::administrator
 avahi:!::
 mysql:!::
@@ -61,3 +61,5 @@ ftp:!::
 mongodb:!::mongodb
 gerrit2:!::
 ssl-cert:!::
+adam:!::
+admin:!::administrator,root,dhval
