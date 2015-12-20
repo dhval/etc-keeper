@@ -50,7 +50,7 @@ dhval:!::
 lpadmin:!::dhval
 sambashare:!::dhval
 administrator:!::plex,dhval
-debian-transmission:!::administrator
+debian-transmission:!::administrator,dhval
 avahi:!::
 mysql:!::
 tomcat7:!::

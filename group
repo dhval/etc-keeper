@@ -63,3 +63,4 @@ gerrit2:x:1002:
 ssl-cert:x:121:
 adam:x:1003:
 admin:x:1004:administrator,root,dhval
+docker:x:999:
